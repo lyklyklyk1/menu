@@ -1,0 +1,7 @@
+<!--pages/menu/list.wxml-->
+<button bindtap='toAddMenu'>新增</button>
+<view class="container log-list">
+  <block wx:for="{{menus}}" wx:for-item="menu">
+    <text>{{menu.name}}</text>
+  </block>
+</view>

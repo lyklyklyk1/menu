@@ -1,0 +1,10 @@
+<template name="menuinfo">
+  <view class="section">
+    <view class="section__title">id</view>
+    <view class="section__title">{{menu.id}}</view>
+  </view>
+  <view class="section">
+    <view class="section__title">名称</view>
+    <input name="input" placeholder="名称" />
+  </view>
+</template>

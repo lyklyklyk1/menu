@@ -1,0 +1,4 @@
+<!--pages/menu/add.wxml-->
+<import src="menuinfo.wxml"/>
+<template is="menuinfo" data="{{menu}}"/>
+<button bindtap='saveMenu'>保存</button>
